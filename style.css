@@ -1,0 +1,68 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a79e9e;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.bundle-option {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.bundle-option.selected {
+    border: 2px solid #008000;
+    background-color: #e8f5e9;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+select {
+    width: 48%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.a{text-align: t;
+}
+
+.total {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+.add-to-cart {
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add-to-cart:hover {
+    background: darkgreen;
+}
